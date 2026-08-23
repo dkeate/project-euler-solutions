@@ -1,0 +1,3 @@
+name: project-euler
+dependencies:
+  - python=3.14
