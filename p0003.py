@@ -6,8 +6,8 @@
 
 
 
-import tools.prime as prime
 from math import sqrt
+import tools.prime as prime
 
 num = 600851475143
 
