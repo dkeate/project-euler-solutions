@@ -23,8 +23,6 @@ def generate (n: int) -> List[int]:
         upper_bound = 11.0
     else:
         upper_bound = n * (log(n) + log(log(n)))
-        
-    print(upper_bound)
 
     result = generate_below(int(upper_bound)+1)
     result = result[:n]
