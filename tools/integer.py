@@ -10,7 +10,7 @@ from typing import List
 from math import sqrt
 
 def factors (n: int) -> List[int]:
-    "Returns a list of all factors of n."
+    """Returns a list of all factors of n."""
 
     results = []
 
