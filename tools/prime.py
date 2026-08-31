@@ -63,7 +63,7 @@ def factors (n: int) -> List[int]:
     """Returns list of prime factors."""
 
     if n < 2:
-        raise ValueError("Prime numbers must be higher than 1.")
+        raise ValueError("Prime numbers must be greater than 1.")
 
     results = []
 
