@@ -9,6 +9,7 @@ Available functions:
     - factors
 """
 
+
 from typing import List
 from math import log, sqrt
 
@@ -29,6 +30,8 @@ def generate (n: int) -> List[int]:
 
     return result
 
+
+
 def generate_below (limit: int) -> List[int]:
     """Returns a list of primes that are below limit."""
 
@@ -44,6 +47,8 @@ def generate_below (limit: int) -> List[int]:
     primes = [num for num, prime in enumerate(is_prime) if prime]
     return primes
 
+
+
 def is_prime (n: int) -> bool:
     """Returns True if a number is a prime positive int. Otherwise, returns False."""
 
@@ -58,6 +63,8 @@ def is_prime (n: int) -> bool:
             return False
 
     return True
+
+
 
 def factors (n: int) -> List[int]:
     """Returns list of prime factors."""

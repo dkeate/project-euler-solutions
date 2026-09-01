@@ -6,6 +6,7 @@ Available functions:
     - factors
 """
 
+
 from typing import List
 from math import sqrt
 

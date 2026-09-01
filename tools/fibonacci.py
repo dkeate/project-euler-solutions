@@ -7,6 +7,7 @@ Available functions:
     - generate_below
 """
 
+
 from typing import List
 
 def generate (n: int) -> List[int]:
@@ -15,15 +16,15 @@ def generate (n: int) -> List[int]:
     if n <= 2:
         raise ValueError("Fibonacci sequence must contain at least 3 values.")
 
-    result = [1,2]
-    a=1
-    b=2
+    result = [1,1]
+    a = 1
+    b = 1
 
     for i in range(n-2):
-        c=a+b
+        c = a + b
         result.append(c)
-        a=b
-        b=c
+        a = b
+        b = c
         
     return result
 
@@ -35,16 +36,16 @@ def generate_below (limit: int) -> List[int]:
     if limit <= 2:
         raise ValueError("Fibonacci sequence must contain at least 3 values.")
 
-    result = [1,2]
-    a=1
-    b=2
-    c=3
+    result = [1,1]
+    a = 1
+    b = 1
+    c = 2
 
     while c < limit:
         result.append(c)
 
-        a=b
-        b=c
-        c=a+b
+        a = b
+        b = c
+        c = a + b
 
     return result
