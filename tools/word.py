@@ -50,6 +50,8 @@ def permutations (elements: List[str]) -> List[str]:
 
     return results
 
+
+
 def permutations_of_length (elements: List[str], n: int) -> List[str]:
     """Returns a list of all permutations of elements of length n."""
 
